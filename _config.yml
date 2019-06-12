@@ -1,0 +1,31 @@
+---
+title: Nathan Albrecht Portfolio
+timezone: America/New_York
+collections:
+  book:
+    title: Books
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: book
+  values:
+    Author(s): 
+    Edition Number: 
+    Amazon Item ID: 
+    Goodreads Item ID: 
+email: nathanielalbrecht@gmail.com
+description: Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+twitter_username: albrechtnate
+github_username: albrechtnate
+permalink: pretty
+theme: minima
+baseurl: 
