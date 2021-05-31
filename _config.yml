@@ -4,7 +4,7 @@ timezone: America/New_York
 collections:
   books:
     title: Books
-    output: false
+    output: true
   posts:
     title: Thoughts
     output: true
@@ -27,6 +27,7 @@ defaults:
     Goodreads Item ID: 
     Is Favorite: false
     Cover Image:
+      Original Image: 
       WebP 400h Image: 
       JPG 400h Image: 
       WebP 200h Image: 
@@ -44,7 +45,8 @@ description: Write an awesome description for your new site here. You can edit t
 twitter_username: albrechtnate
 github_username: albrechtnate
 permalink: "/:title/"
-theme: 
 plugins:
 - jekyll-seo-tag
-baseurl: 
+header_pages:
+- index.markdown
+- thoughts.markdown
